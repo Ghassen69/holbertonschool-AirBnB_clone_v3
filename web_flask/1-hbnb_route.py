@@ -10,10 +10,12 @@ def hello_hbnb():
     """diplays Hello HBNB!"""
     return 'Hello HBNB!'
 
+
 @app.route('/hbnb', strict_slashes=False)
 def hbnb():
     """ display hbnb"""
     return 'HBNB'
+
 
 if __name__ == "__main__":
     """ running app.route on 0.0.0.0:(port)5000"""
